@@ -1,0 +1,17 @@
+cat > .gitignore <<'EOF'
+# Maven target dir
+/target/
+
+# IntelliJ project files
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS stuff
+.DS_Store
+
+# Environment / secrets
+.env
+EOF
